@@ -1,0 +1,46 @@
+{
+  "repos": {
+    "fa0311/twitter-openapi": {
+      "tags": ["schema"]
+    },
+    "fa0311/twitter_openapi_dart": {
+      "tags": ["package"]
+    },
+    "fa0311/twitter-openapi-typescript": {
+      "tags": ["package"]
+    },
+    "fa0311/twitter-openapi-docs": {
+      "tags": ["document"]
+    },
+    "fa0311/TwitterInternalAPIDocument": {
+      "tags": ["tool", "document"]
+    },
+    "fa0311/TwitterSpacesWiretap": {
+      "tags": ["package"]
+    },
+    "fa0311/TwitterSpacesWiretapExtension": {
+      "tags": ["application"]
+    },
+    "fa0311/TwitterFrontendFlow": {
+      "tags": ["package"]
+    },
+    "fa0311/twitter_river": {
+      "tags": ["application"]
+    },
+    "fa0311/social_doge": {
+      "tags": ["application"]
+    },
+    "trevorhobenshield/twitter-api-client": {
+      "tags": ["package"]
+    },
+    "jonjomckay/fritter": {
+      "tags": ["application"]
+    },
+    "yaroslav-n/secret-twitter-features": {
+      "tags": ["tool", "application"]
+    },
+    "tsukumijima/tweepy-authlib": {
+      "tags": ["package"]
+    }
+  }
+}
