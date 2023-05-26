@@ -1,7 +1,6 @@
 import json
 import os
 from markdownmaker.document import Document
-from markdownmaker.markdownmaker import *
 
 
 from github import Github
@@ -9,7 +8,7 @@ from github import Github
 import pandas as pd
 
 
-from module import get_languages, get_commit_activity, get_stars
+from module import *
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", None)
 UPDATE_SKIP = os.environ.get("UPDATE_SKIP", True)
@@ -43,20 +42,17 @@ else:
         output_repos = json.load(f)
 
 row_data = {
-    "name": lambda x: x,
-    "url": lambda x: Link(x, x).write(),
-    "description": lambda x: x,
-    "topics": lambda x: ", ".join(x),
-    "langs": lambda x: ", ".join(x),
-    "last_commit": lambda x: Image(x, "last commit").write(Document()),
-    "stars": lambda x: Image(x, "stars").write(Document()),
+    "Name": get_name_md,
+    "Description": get_description_md,
+    "Topic": get_topics_md,
+    "Language": get_langs_md,
 }
 
 
 doc = Document()
 
 data = [
-    [row_writer(repo_item[row]) for row, row_writer in row_data.items()]
+    [writer(repo_item) for writer in row_data.values()]
     for repo_item in output_repos.values()
 ]
 
@@ -66,5 +62,5 @@ df = pd.DataFrame(data, columns=row_data.keys())
 pd.set_option("display.unicode.east_asian_width", True)
 
 
-with open("output.md", "w", encoding="utf-8") as f:
+with open("README.md", "w", encoding="utf-8") as f:
     f.write(df.to_markdown(index=False))
