@@ -24,8 +24,9 @@ def get_description_md(x):
     return "".join(
         [
             x["description"] or "",
-            Image(x["stars"], "stars").write(0).replace("\n", " "),
-            Image(x["last_commit"], "last commit").write(0).replace("\n", " "),
+            "<br>",
+            Image(x["stars"], "stars").write(0).replace("\n", ""),
+            Image(x["last_commit"], "last commit").write(0).replace("\n", ""),
         ]
     )
 

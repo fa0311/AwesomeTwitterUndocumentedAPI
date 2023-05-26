@@ -59,7 +59,7 @@ with HeaderSubLevel(doc):
         ]
 
         df = pd.DataFrame(table, columns=row_data.keys())
-        doc.add(df.to_markdown(index=False))
+        doc.add(df.to_markdown(index=False, tablefmt="pipe"))
 
 
 with open("README.md", "w", encoding="utf-8") as f:
