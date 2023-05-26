@@ -1,250 +1,214 @@
 {
-    "fa0311/twitter-openapi": {
-        "name": "twitter-openapi",
-        "url": "https://github.com/fa0311/twitter-openapi",
-        "description": "OpenAPI(Swagger) specification of Twitter Internal API",
-        "topics": [
-            "documentation",
-            "graphql",
-            "openapi",
-            "twitter",
-            "undocumented",
-            "unofficial"
-        ],
-        "langs": [
-            "Python"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter-openapi",
-        "stars": "https://img.shields.io/github/stars/fa0311/twitter-openapi",
-        "tags": [
-            "schema"
-        ]
+    "package": {
+        "fa0311/twitter_openapi_dart": {
+            "name": "fa0311/twitter_openapi_dart",
+            "url": "https://github.com/fa0311/twitter_openapi_dart",
+            "description": "Implementation of Twitter internal API in Dart",
+            "topics": [
+                "dart",
+                "openapi",
+                "twitter",
+                "undocumented",
+                "unofficial"
+            ],
+            "langs": [
+                "Dart"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter_openapi_dart",
+            "stars": "https://img.shields.io/github/stars/fa0311/twitter_openapi_dart"
+        },
+        "fa0311/twitter-openapi-typescript": {
+            "name": "fa0311/twitter-openapi-typescript",
+            "url": "https://github.com/fa0311/twitter-openapi-typescript",
+            "description": "Implementation of Twitter internal API in TypeScript",
+            "topics": [],
+            "langs": [
+                "TypeScript"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter-openapi-typescript",
+            "stars": "https://img.shields.io/github/stars/fa0311/twitter-openapi-typescript"
+        },
+        "fa0311/TwitterSpacesWiretap": {
+            "name": "fa0311/TwitterSpacesWiretap",
+            "url": "https://github.com/fa0311/TwitterSpacesWiretap",
+            "description": "Unofficial Spaces Client for Twitter Internal API",
+            "topics": [
+                "twitter",
+                "unofficial-apis"
+            ],
+            "langs": [
+                "Python"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterSpacesWiretap",
+            "stars": "https://img.shields.io/github/stars/fa0311/TwitterSpacesWiretap"
+        },
+        "fa0311/TwitterFrontendFlow": {
+            "name": "fa0311/TwitterFrontendFlow",
+            "url": "https://github.com/fa0311/TwitterFrontendFlow",
+            "description": "Unofficial Client for Twitter Internal API",
+            "topics": [
+                "twitter",
+                "twitter-bot",
+                "unofficial"
+            ],
+            "langs": [
+                "Python"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterFrontendFlow",
+            "stars": "https://img.shields.io/github/stars/fa0311/TwitterFrontendFlow"
+        },
+        "trevorhobenshield/twitter-api-client": {
+            "name": "trevorhobenshield/twitter-api-client",
+            "url": "https://github.com/trevorhobenshield/twitter-api-client",
+            "description": "Implementation of Twitter's v1, v2, and GraphQL APIs",
+            "topics": [
+                "api",
+                "async",
+                "automation",
+                "bot",
+                "client",
+                "scrape",
+                "search",
+                "twitter"
+            ],
+            "langs": [
+                "Python"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/trevorhobenshield/twitter-api-client",
+            "stars": "https://img.shields.io/github/stars/trevorhobenshield/twitter-api-client"
+        },
+        "tsukumijima/tweepy-authlib": {
+            "name": "tsukumijima/tweepy-authlib",
+            "url": "https://github.com/tsukumijima/tweepy-authlib",
+            "description": "Twitter Web App (Web 版公式クライアント) の内部 API を使い、Tweepy でスクリーンネームとパスワードで認証するためのライブラリ",
+            "topics": [
+                "api",
+                "python",
+                "reverse-engineering",
+                "tweepy",
+                "twitter"
+            ],
+            "langs": [
+                "Python"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/tsukumijima/tweepy-authlib",
+            "stars": "https://img.shields.io/github/stars/tsukumijima/tweepy-authlib"
+        }
     },
-    "fa0311/twitter_openapi_dart": {
-        "name": "twitter_openapi_dart",
-        "url": "https://github.com/fa0311/twitter_openapi_dart",
-        "description": "Implementation of Twitter internal API in Dart",
-        "topics": [
-            "dart",
-            "openapi",
-            "twitter",
-            "undocumented",
-            "unofficial"
-        ],
-        "langs": [
-            "Dart"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter_openapi_dart",
-        "stars": "https://img.shields.io/github/stars/fa0311/twitter_openapi_dart",
-        "tags": [
-            "package"
-        ]
+    "document": {
+        "fa0311/twitter-openapi-docs": {
+            "name": "fa0311/twitter-openapi-docs",
+            "url": "https://github.com/fa0311/twitter-openapi-docs",
+            "description": null,
+            "topics": [],
+            "langs": [
+                "TypeScript"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter-openapi-docs",
+            "stars": "https://img.shields.io/github/stars/fa0311/twitter-openapi-docs"
+        },
+        "fa0311/TwitterInternalAPIDocument": {
+            "name": "fa0311/TwitterInternalAPIDocument",
+            "url": "https://github.com/fa0311/TwitterInternalAPIDocument",
+            "description": "Twitter Internal API Document",
+            "topics": [
+                "api",
+                "documentation",
+                "graphql",
+                "twitter",
+                "undocumented",
+                "unofficial"
+            ],
+            "langs": [
+                "Python"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterInternalAPIDocument",
+            "stars": "https://img.shields.io/github/stars/fa0311/TwitterInternalAPIDocument"
+        }
     },
-    "fa0311/twitter-openapi-typescript": {
-        "name": "twitter-openapi-typescript",
-        "url": "https://github.com/fa0311/twitter-openapi-typescript",
-        "description": "Implementation of Twitter internal API in TypeScript",
-        "topics": [],
-        "langs": [
-            "TypeScript"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter-openapi-typescript",
-        "stars": "https://img.shields.io/github/stars/fa0311/twitter-openapi-typescript",
-        "tags": [
-            "package"
-        ]
+    "tool": {
+        "fa0311/twitter-openapi": {
+            "name": "fa0311/twitter-openapi",
+            "url": "https://github.com/fa0311/twitter-openapi",
+            "description": "OpenAPI(Swagger) specification of Twitter Internal API",
+            "topics": [
+                "documentation",
+                "graphql",
+                "openapi",
+                "twitter",
+                "undocumented",
+                "unofficial"
+            ],
+            "langs": [
+                "Python"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter-openapi",
+            "stars": "https://img.shields.io/github/stars/fa0311/twitter-openapi"
+        },
+        "yaroslav-n/secret-twitter-features": {
+            "name": "yaroslav-n/secret-twitter-features",
+            "url": "https://github.com/yaroslav-n/secret-twitter-features",
+            "description": "Chrome extension to modify Twitter feature flags",
+            "topics": [],
+            "langs": [
+                "TypeScript"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/yaroslav-n/secret-twitter-features",
+            "stars": "https://img.shields.io/github/stars/yaroslav-n/secret-twitter-features"
+        }
     },
-    "fa0311/twitter-openapi-docs": {
-        "name": "twitter-openapi-docs",
-        "url": "https://github.com/fa0311/twitter-openapi-docs",
-        "description": null,
-        "topics": [],
-        "langs": [
-            "TypeScript"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter-openapi-docs",
-        "stars": "https://img.shields.io/github/stars/fa0311/twitter-openapi-docs",
-        "tags": [
-            "document"
-        ]
-    },
-    "fa0311/TwitterInternalAPIDocument": {
-        "name": "TwitterInternalAPIDocument",
-        "url": "https://github.com/fa0311/TwitterInternalAPIDocument",
-        "description": "Twitter Internal API Document",
-        "topics": [
-            "api",
-            "documentation",
-            "graphql",
-            "twitter",
-            "undocumented",
-            "unofficial"
-        ],
-        "langs": [
-            "Python"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterInternalAPIDocument",
-        "stars": "https://img.shields.io/github/stars/fa0311/TwitterInternalAPIDocument",
-        "tags": [
-            "tool",
-            "document"
-        ]
-    },
-    "fa0311/TwitterSpacesWiretap": {
-        "name": "TwitterSpacesWiretap",
-        "url": "https://github.com/fa0311/TwitterSpacesWiretap",
-        "description": "Unofficial Spaces Client for Twitter Internal API",
-        "topics": [
-            "twitter",
-            "unofficial-apis"
-        ],
-        "langs": [
-            "Python"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterSpacesWiretap",
-        "stars": "https://img.shields.io/github/stars/fa0311/TwitterSpacesWiretap",
-        "tags": [
-            "package"
-        ]
-    },
-    "fa0311/TwitterSpacesWiretapExtension": {
-        "name": "TwitterSpacesWiretapExtension",
-        "url": "https://github.com/fa0311/TwitterSpacesWiretapExtension",
-        "description": "Twitter のスペースに参加せずに試し聞きできる Chrome 拡張機能",
-        "topics": [
-            "chrome-extension",
-            "twitter"
-        ],
-        "langs": [
-            "JavaScript"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterSpacesWiretapExtension",
-        "stars": "https://img.shields.io/github/stars/fa0311/TwitterSpacesWiretapExtension",
-        "tags": [
-            "application"
-        ]
-    },
-    "fa0311/TwitterFrontendFlow": {
-        "name": "TwitterFrontendFlow",
-        "url": "https://github.com/fa0311/TwitterFrontendFlow",
-        "description": "Unofficial Client for Twitter Internal API",
-        "topics": [
-            "twitter",
-            "twitter-bot",
-            "unofficial"
-        ],
-        "langs": [
-            "Python"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterFrontendFlow",
-        "stars": "https://img.shields.io/github/stars/fa0311/TwitterFrontendFlow",
-        "tags": [
-            "package"
-        ]
-    },
-    "fa0311/twitter_river": {
-        "name": "twitter_river",
-        "url": "https://github.com/fa0311/twitter_river",
-        "description": "Unofficial Twitter client that does not use the official API, Third-party apps to take down Elon Musk (beta)",
-        "topics": [],
-        "langs": [
-            "Dart"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter_river",
-        "stars": "https://img.shields.io/github/stars/fa0311/twitter_river",
-        "tags": [
-            "application"
-        ]
-    },
-    "fa0311/social_doge": {
-        "name": "social_doge",
-        "url": "https://github.com/fa0311/social_doge",
-        "description": "Twitter follow/follower manager(beta)",
-        "topics": [],
-        "langs": [
-            "Dart"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/social_doge",
-        "stars": "https://img.shields.io/github/stars/fa0311/social_doge",
-        "tags": [
-            "application"
-        ]
-    },
-    "trevorhobenshield/twitter-api-client": {
-        "name": "twitter-api-client",
-        "url": "https://github.com/trevorhobenshield/twitter-api-client",
-        "description": "Implementation of Twitter's v1, v2, and GraphQL APIs",
-        "topics": [
-            "api",
-            "async",
-            "automation",
-            "bot",
-            "client",
-            "scrape",
-            "search",
-            "twitter"
-        ],
-        "langs": [
-            "Python"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/trevorhobenshield/twitter-api-client",
-        "stars": "https://img.shields.io/github/stars/trevorhobenshield/twitter-api-client",
-        "tags": [
-            "package"
-        ]
-    },
-    "jonjomckay/fritter": {
-        "name": "fritter",
-        "url": "https://github.com/jonjomckay/fritter",
-        "description": "A privacy-friendly Twitter frontend for mobile devices",
-        "topics": [
-            "android",
-            "app",
-            "ios",
-            "twitter"
-        ],
-        "langs": [
-            "Dart"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/jonjomckay/fritter",
-        "stars": "https://img.shields.io/github/stars/jonjomckay/fritter",
-        "tags": [
-            "application"
-        ]
-    },
-    "yaroslav-n/secret-twitter-features": {
-        "name": "secret-twitter-features",
-        "url": "https://github.com/yaroslav-n/secret-twitter-features",
-        "description": "Chrome extension to modify Twitter feature flags",
-        "topics": [],
-        "langs": [
-            "TypeScript"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/yaroslav-n/secret-twitter-features",
-        "stars": "https://img.shields.io/github/stars/yaroslav-n/secret-twitter-features",
-        "tags": [
-            "tool",
-            "application"
-        ]
-    },
-    "tsukumijima/tweepy-authlib": {
-        "name": "tweepy-authlib",
-        "url": "https://github.com/tsukumijima/tweepy-authlib",
-        "description": "Twitter Web App (Web 版公式クライアント) の内部 API を使い、Tweepy でスクリーンネームとパスワードで認証するためのライブラリ",
-        "topics": [
-            "api",
-            "python",
-            "reverse-engineering",
-            "tweepy",
-            "twitter"
-        ],
-        "langs": [
-            "Python"
-        ],
-        "last_commit": "https://img.shields.io/github/commit-activity/m/tsukumijima/tweepy-authlib",
-        "stars": "https://img.shields.io/github/stars/tsukumijima/tweepy-authlib",
-        "tags": [
-            "package"
-        ]
+    "application": {
+        "fa0311/twitter_river": {
+            "name": "fa0311/twitter_river",
+            "url": "https://github.com/fa0311/twitter_river",
+            "description": "Unofficial Twitter client that does not use the official API, Third-party apps to take down Elon Musk (beta)",
+            "topics": [],
+            "langs": [
+                "Dart"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/twitter_river",
+            "stars": "https://img.shields.io/github/stars/fa0311/twitter_river"
+        },
+        "fa0311/social_doge": {
+            "name": "fa0311/social_doge",
+            "url": "https://github.com/fa0311/social_doge",
+            "description": "Twitter follow/follower manager(beta)",
+            "topics": [],
+            "langs": [
+                "Dart"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/social_doge",
+            "stars": "https://img.shields.io/github/stars/fa0311/social_doge"
+        },
+        "fa0311/TwitterSpacesWiretapExtension": {
+            "name": "fa0311/TwitterSpacesWiretapExtension",
+            "url": "https://github.com/fa0311/TwitterSpacesWiretapExtension",
+            "description": "Twitter のスペースに参加せずに試し聞きできる Chrome 拡張機能",
+            "topics": [
+                "chrome-extension",
+                "twitter"
+            ],
+            "langs": [
+                "JavaScript"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/fa0311/TwitterSpacesWiretapExtension",
+            "stars": "https://img.shields.io/github/stars/fa0311/TwitterSpacesWiretapExtension"
+        },
+        "jonjomckay/fritter": {
+            "name": "jonjomckay/fritter",
+            "url": "https://github.com/jonjomckay/fritter",
+            "description": "A privacy-friendly Twitter frontend for mobile devices",
+            "topics": [
+                "android",
+                "app",
+                "ios",
+                "twitter"
+            ],
+            "langs": [
+                "Dart"
+            ],
+            "last_commit": "https://img.shields.io/github/commit-activity/m/jonjomckay/fritter",
+            "stars": "https://img.shields.io/github/stars/jonjomckay/fritter"
+        }
     }
 }
