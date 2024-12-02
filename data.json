@@ -1,21 +1,30 @@
 {
   "package": {
-    "fa0311/twitter_openapi_dart": {},
     "fa0311/twitter-openapi-typescript": {},
-    "fa0311/TwitterSpacesWiretap": {},
-    "fa0311/TwitterFrontendFlow": {},
+    "fa0311/twitter_openapi_python": {},
+    "fa0311/twitter_openapi_dart": {},
     "trevorhobenshield/twitter-api-client": {},
-    "tsukumijima/tweepy-authlib": {}
+    "tsukumijima/tweepy-authlib": {},
+    "iSarabjitDhiman/TweeterPy": {}
   },
   "document": {
     "fa0311/twitter-openapi-docs": {},
-    "fa0311/TwitterInternalAPIDocument": {}
+    "fa0311/TwitterInternalAPIDocument": {},
+    "fa0311/twitter-tid-generator": {}
   },
   "tool": {
     "fa0311/twitter-openapi": {},
     "yaroslav-n/secret-twitter-features": {}
   },
   "application": {
+    "dimdenGD/OldTweetDeck": {},
+    "fa0311/twitter-snap": {}
+  },
+  "deprecated-package": {
+    "fa0311/TwitterSpacesWiretap": {},
+    "fa0311/TwitterFrontendFlow": {}
+  },
+  "deprecated-application": {
     "fa0311/twitter_river": {},
     "fa0311/social_doge": {},
     "fa0311/TwitterSpacesWiretapExtension": {},
