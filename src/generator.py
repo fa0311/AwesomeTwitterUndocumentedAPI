@@ -1,10 +1,19 @@
 import json
 import os
+
+import pandas as pd
+from github import Github
 from markdownmaker.document import Document
 
-from github import Github
-import pandas as pd
-from module import *
+from module import (
+    Header,
+    HeaderSubLevel,
+    get_commit_activity,
+    get_description_md,
+    get_languages,
+    get_name_md,
+    get_stars,
+)
 
 pd.set_option("display.unicode.east_asian_width", True)
 
